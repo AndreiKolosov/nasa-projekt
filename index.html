@@ -10,7 +10,7 @@
 
 <body>
     <main id="main-content">
-        <div class="height-viewport" style="background-image: url(./assets/nasawds-3.0.177/img/earth.jpg);">
+        <div class="height-viewport usa-hero" style="background-image: url(./assets/nasawds-3.0.177/img/earth.jpg);">
             <header class="usa-header usa-header--extended">
                 <div class="usa-navbar">
                     <div class="usa-logo" id="extended-logo">
@@ -155,22 +155,22 @@
                         Расскажите о себе
                     </h2>
 
-                    <form class="usa-form usa-form--large margin-bottom-4">
-                        <fieldset class="usa-fieldset">
+                    <form class="usa-form usa-form--large ">
+                        <fieldset class="usa-fieldset margin-bottom-4">
                             <legend class="usa-legend">и отправьтесь в космос вместе с NASA!</legend>
                             <label class="usa-label" for="name">
                                 Ваше имя
                             </label>
                             <input class="usa-input usa-input--xl" id="name" name="name" type="text" />
                         </fieldset>
-                    </form>
 
-                    <h2 class="usa-modal__heading" id="modal-heading">
-                        Выберите планеты, которые хотели бы посетить
-                    </h2>
 
-                    <form class="usa-form margin-bottom-4">
-                        <fieldset class="usa-fieldset">
+                        <h2 class="usa-modal__heading" id="modal-heading">
+                            Выберите планеты, которые хотели бы посетить
+                        </h2>
+
+
+                        <fieldset class="usa-fieldset margin-bottom-4">
                             <div class="usa-checkbox">
                                 <input class="usa-checkbox__input" id="planet-Mercury" type="checkbox" name="planets"
                                     value="Меркурий" />
@@ -207,13 +207,13 @@
                                 <label class="usa-checkbox__label" for="planet-Neptune">Нептун</label>
                             </div>
                         </fieldset>
-                    </form>
 
-                    <h2 class="usa-modal__heading" id="modal-heading">
-                        Выберите удобный способ оплаты
-                    </h2>
 
-                    <form class="usa-form">
+                        <h2 class="usa-modal__heading" id="modal-heading">
+                            Выберите удобный способ оплаты
+                        </h2>
+
+
                         <fieldset class="usa-fieldset">
                             <div class="usa-radio">
                                 <input class="usa-radio__input" id="payment-Наличные" type="radio" name="payment-method"
@@ -236,13 +236,16 @@
                                 <label class="usa-radio__label" for="payment-Chillim">Chillim</label>
                             </div>
                         </fieldset>
+
+                        <div class="usa-modal__footer">
+                            <button type="submit" class="usa-button" data-close-modal>
+                                Отправить заявку
+                            </button>
+                        </div>
+
                     </form>
 
-                    <div class="usa-modal__footer">
-                        <button type="button" class="usa-button" data-close-modal>
-                            Отправить заявку
-                        </button>
-                    </div>
+
 
                 </div>
                 <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
